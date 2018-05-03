@@ -1,0 +1,32 @@
+{
+  "name": "vue-light-loading",
+  "version": "1.0.0",
+  "description": "loading status",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnharvy/vue-Light-Loading.git"
+  },
+  "author": "hengxing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johnharvy/vue-Light-Loading/issues"
+  },
+  "homepage": "https://github.com/Johnharvy/vue-Light-Loading#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "sass-loader": "^7.0.1",
+    "scss-loader": "0.0.1",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.0.3",
+    "webpack": "^4.6.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.15"
+  }
+}
