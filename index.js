@@ -1,1 +1,5 @@
-console.log(123)
+
+import App from './src/App2.vue'
+
+export default  App 
+

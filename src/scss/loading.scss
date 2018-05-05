@@ -1,0 +1,7 @@
+$border : 1px solid #000;
+
+.outCell{
+    position : absolute;
+    z-index :  99999999; 
+    border : $border;
+}
