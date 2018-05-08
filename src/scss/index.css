@@ -1,8 +1,0 @@
-
-@import './loading.scss';
-
-.outCell{
-    position : absolute;
-    z-index :  99999999; 
-    border : $border;
-}

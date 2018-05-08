@@ -17,11 +17,19 @@ var config = {
        rules : [
            {
                test : /\.css$/,
-               loader: "style-loader!css-loader!sass-loader"
+               loaders: [
+                "style-loader",
+                "css-loader",
+                "sass-loader"
+               ]
            },
            {
             test : /\.scss$/,
-            loader: "style-loader!css-loader!sass-loader"
+            loaders: [
+                "style-loader",
+                "css-loader",
+                "sass-loader"
+            ]
            },
            {
               test: /\.(png|jpg|jpeg|gif)$/,
@@ -41,8 +49,7 @@ var config = {
            {
                test : /\.vue$/,
                loaders : [
-                   'vue-loader',
-                   'sass-loader'
+                   'vue-loader'
               ],
                exclude: /node_modules/,
            }

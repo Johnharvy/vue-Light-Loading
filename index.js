@@ -1,5 +1,5 @@
 
-import App from './src/App2.vue'
+import App from './src/App.vue'
 
 export default  App 
 

@@ -1,25 +1,26 @@
 <template>
-    <div class = 'outCell'>
-        {{text}}
+    <div>
+        <Loading :my-message = 'params'></Loading> 
     </div>
 </template>
 
 <script>
-    /* import './scss/index.css' */
+    import Loading from './loading'
+
+    let params = {
+         background : '#d8d8d8',
+         type : 'globlue'
+    }
     export default {
-        props : ['myMessage'],
+        components : {Loading},
         data(){
-            return {
-                text : '你好'  
+            return{
+               params : params
             }
-        },
-        mounted(){
-            
         }
     }
 </script>
 
-<style>
-     /* @import url("./scss/index.css"); */
-</style>
+<style scoped>
 
+</style>
